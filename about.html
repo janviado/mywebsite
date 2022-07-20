@@ -1,0 +1,492 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>Bball Chronicles of Jan Viado</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+
+    <!-- Custom Styles and Overrides -->
+    <link href="css/style.css" rel="stylesheet">
+
+   <!-- Icons -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+
+    <!-- Favicon - See also: https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#adding_custom_icons_to_your_site -->
+    <!-- reference for the favicon icon: https://freeicons.io/hobbies-and-free-time-2/basketball-sport-ball-icon-132901 -->
+    <link rel="shortcut icon" href="media/Images/free_icon_1.svg" type="image/x-icon">
+  </head>
+
+  <body>
+    <!-- Boostrap Nav Bar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+        <div class="container">
+          <a id="wordmark" class="navbar-brand" href="index.html">
+             <!-- reference for the favicon icon: https://freeicons.io/hobbies-and-free-time-2/basketball-sport-ball-icon-132901 -->
+           <img src="media/Images/free_icon_1.svg" alt="White basketball icon" width="25" height="25" class="d-inline-block align-text-top">
+            Basketball Chronicles of J.V
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link active" aria-current="page" href="about.html" id="navbarDropdownMenuLinkAbout" role="button" aria-expanded="false">
+                  About
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="media.html" id="navbarDropdownMenuLinkMedia" role="button" aria-expanded="false">
+                  Media
+                </a>
+              </li>
+              <!-- Dropdown More Section -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkMore" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  More
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdownMenuLinkMore">
+                  <li><a class="dropdown-item" href="form.html">Contact</a></li>
+                  <li><a class="dropdown-item" href="process.html">Process</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+
+<!-- Insert Bootstrap Jumbotron here -->
+  <div style="background: url(media/Images/IMG_8309.JPG) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-position: 40% 30%; background-blend-mode: soft-light;" class="p-5 mb-4 bg-dark text-light" alt="Jan Viado with ball in front of her looking right">
+    <div class="container py-5">
+      <div class ="row">
+        <div class="col-6 col-md-3 col-lg-2">
+          <img class="rounded-circle w-100" src="media/Images/close-up.jpeg" alt="Jan in a number 6 jersey.">
+        </div>
+        <div class="col-12 col-md-9 col-lg-10">
+          <h1 class="display-1">About Me <span class="badge bg-secondary">Jan Viado</span></h1>
+          <p class="col-md-8 fs-4"><span class="badge bg-secondary">Point Guard</span> Played 10+ years in organized basketball with experience in the <em>OBA, JUEL, OCAA, OUA</em>, basketball leagues. Looking for opportunities to further my career in a professional league. </p>
+          <form action="form.html">
+            <button type="submit" class="btn btn-lg btn-outline-light" type="button">Contact Me</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<!-- Timeline of Experiences https://getbootstrap.com/docs/5.2/examples/features/-->
+<!-- Cards -->
+<section> 
+<div class="container px-4 py-5" id="custom-cards">
+    <h2 class="pb-2 border-bottom">Experience</h2>
+
+    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+
+      <div class="col" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg" style="background-image: url('media/Images/JV2.jpeg');"> 
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1" class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Jean Vanier High School</h2>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+                <i class="bi bi-geo-alt-fill text-white nav-link px-2"></i>
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                <small>HCDSB</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                <small>2014-2018</small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg" style="background-image: url('media/Images/AT.jpeg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1" class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">JUEL</h2>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+                <i class="bi bi-geo-alt-fill text-white nav-link px-2"></i>
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                <small>GTA</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                <small>2015-2018</small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg" style="background-image: url('media/Images/AAU.jpeg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1" class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">AAU</h2>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+                <i class="bi bi-geo-alt-fill text-white nav-link px-2"></i>
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                <small>U.S.A</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                <small>2014-2018</small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg" style="background-image: url('media/Images/Homecoming.jpeg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1" class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">OCAA</h2>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+                <i class="bi bi-geo-alt-fill text-white nav-link px-2"></i>
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                <small>U.T.M</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                <small>2018-2022</small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg" style="background-image: url('media/Images/underdogleague.jpeg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1" class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Underdog League</h2>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+                <i class="bi bi-geo-alt-fill text-white nav-link px-2"></i>
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                <small>Milton</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                <small>2021-Current</small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg" style="background-image: url('media/Images/bench.jpeg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1" class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">OUA</h2>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+                <i class="bi bi-geo-alt-fill text-white nav-link px-2"></i>
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                <small>UofT</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                <small>2021</small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+    <!-- Button trigger modal -->
+    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Launch demo modal
+    </button>--> 
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog modal-fullscreen-md-down modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Jean Vanier High School</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body clearfix">
+                <img src="media/Images/vanier.jpeg" class="col-md-3 float-md-end mb-3 ms-md-3" alt="Jan wearing a Vanier jersey">
+                <p class="indent">
+                    I attended the new Catholic school, Jean Vanier, in Milton back in 2014. I knew that I wanted to pursue athletics and basketball as I have previously played for a couple of years in rep basketball at a high level. In grade 9, I made a big decision in trying out for the senior girl's basketball team being a junior student. Under Coach Julia Mulligan, I made the team and worked hard with the other girls on the team. At the end of the 2014-2015 season, I was awarded the Junior Female Sportsmanship award being on the senior team, and with my efforts in other sports teams, such as, swimming, ultimate frisbee, and flag football. 
+                  </p>
+                <p class="indent">
+                    During the seasons of the years 2016-2017 and 2017-2018, I was now the captain of the senior girls basketball team leading the team through division 1 in the Halton Catholic District School Board. Although it was a tough loss in the playoffs round in my final season, I was awarded 2-time MVP for those years. I was also awarded the Pat Daly award which was given to a student who emobides what it means to be a student-athlete. 
+                </p>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModal1Label" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog modal-fullscreen-md-down modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">JUEL</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body clearfix">
+                <img width="50px" src="media/Images/juelmedal.jpeg" class="col-md-3 float-md-end mb-3 ms-md-3" alt="Photo of Jan Viado wearing a JUEL medal">
+                <p class="indent">
+                    Throughout highschool I continued to play basketball at a high level outside of my highschool team. I was part of a basketball league called JUEL between the years of 2014-2018. JUEL is a basketball league for highschool students to play against eachother and get recognized by college and univeristy scouts. I was part of the Brampton Bounce team from 2014-2016, and later travelled with the team across the United States in AAU. I then played for Advantage Titans in Pickering from 2017-2018 during my final year in highschool. 
+                  </p>
+                <p class="indent">
+                    I had many interest from JUEL as I was in contact with OUA coaches, such as York University, and Wilfred Laurier University. I was also in contact with OCAA schools, like Univeristy of Toronto Mississauga, and Humber. The decision to choose between schools was very tough as I had to weigh out the pros and cons to attend each school as a stunet-athlete. I ended up choosing University of Toronto Mississuga for my school of choice for basketball and academics. 
+                </p>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModal1Label" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog modal-fullscreen-md-down modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Amateur Athletic Union (AAU)</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img width="50px" src="media/Images/aauBTown.jpeg" class="col-md-3 float-md-end mb-3 ms-md-3" alt="Jan playing with Brampton Bounce AAU team">
+                <p class="indent"> The Amateur Athletic Union (AAU) is an amatuer sports organization that is based in the United States. Their purpose is to showcase the talent of young players in amateur sports, including basketball. I had the privelege to play all my summers throughout highschool in AAU tournaments. It gave me the opportunity to play against the best players in my age group and travel around the U.S with my family and teammates. </p>
+                <p class="indent">
+                    Training for these tournaments during the summer was tough work, but developed me as a basketball player well. I played for Canada Elite from the summers between 2013-2015. I then played with Brampton Bounce from 2015-2017, and later with Advantage Titans during the summer of 2018. Throughout my AAU career, I got a couple of looks from American schools. A division 3 NCAA school in Conneticut was in contact with me as they had interest in my aggresive defence. 
+                </p>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModal1Label" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog modal-fullscreen-md-down modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Ontario College Athletic Association (OCAA)</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img width="50px" src="media/Images/kneebrace.jpeg" class="col-md-3 float-md-end mb-3 ms-md-3" alt="Jan Viado driving to the basket on UTM Eagles court">
+                <p class="indent">
+                    In 2018, I committed to the University of Toronto Mississuaga (UTM) Eagles to play in the OCAA and work on my bachelor's degree. This decision was not easy, but choosing UTM allowed me to achieve a high education, as well as be able to perform and improve to the best of my ability on the basketball court. My first 2 years playing for UTM were unforgettable as I felt that this stage was meant for me. It opened up new oppourtunities for me and allowed me to connect with so many people. 
+                </p>
+                <p class="indent">
+                    In late 2020, COVID-19 unfortunately caused the termination of the varsity athletic program for UTM, leaving more than 80 student-athletes unable to play their sport. This left many student-athletes, including me, to make the decision of transferring schools, or continuing without sports. During the 2021-2022 school year, tri-campus development league was returning to UTM which was the only option for remaining UTM atheltes to play their sport. I was lucky enough to be able to play and be coached by Coach Brian Hutton. I was able to actually win a championship from the league and was later awarded as the basektball team female MVP, and the Fair Play award for my final atheletic season at UTM. 
+                </p>
+                <p class="indent">
+                    Coach Hutton was hired as a head coach at Georgian College and had recruited me from UTM to play this upcoming fall in 2022. I will continue my studies in a Mental Health graduate studies program at Georgian College while playing under Coach Hutton and the Georgian Grizzlies Women's Basketball Team. 
+                    
+                </p>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModal1Label" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog modal-fullscreen-md-down modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Underdog League</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img width="50px" src="media/Images/DSC04784.JPEG" class="col-md-3 float-md-end mb-3 ms-md-3" alt="Jan Viado doing a reverse layup in a purple shirt">
+                <p class="indent">
+                    As life was slowly getting back to normal from COVID-19, I was blessed to be able to start training with Mathushan Sri from Underdog Athletics. Knowing me from a young age, he developed my game mentally and phyiscally. I was able to meet and compete with a variety of players which helped me improve a lot. 
+                </p>
+                <p class="indent">
+                    The Underdog League allowed me to start competing at a high level again since pre-COVID. I competed in the first 2 seasons of the Underdog Men's League. Playing against male athletes helped me become a stronger player and be more aggressive. Underdog Athletics later continued with the first Underdog Women's League season in which my team ended up placing third in the league. During my first game of the season, I scored 34 points overall and finished with 20 points per game throughout the season. 
+                </p>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModal1Label" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog modal-fullscreen-md-down modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Ontario University Athletics (OUA)</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img width="50px" src="media/Images/future.jpeg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="Jan Viado doing a layup in a UofT jersey">
+                <p class="indent">
+                    In 2021, where OUA was cleared on retruning to sport, I was desperate to play somewhere. I was able to try-out for the UofT St.George Varsity team. After try-outs I made the varisty team as a walk-on (an achievement that is not accomplished by many atheltes that try-out for a varsity team). I was able to play with the team for a month, but had to step away due to not being able to find affordable housing in downtown Toronto, and financial issues. Regardless, I was thankful that the UofT Blues accepted me and allowed to play with them for that time, which was something I was missing during lockdown. 
+                </p>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+        
+    </div>
+
+
+  <!-- Awards -->
+  <section class="bg-light text-dark bg-opacity-10"> 
+  <div class="container px-4 py-5" id="hanging-icons">
+    <h2 class="pb-2 border-bottom">Awards and Achievements</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <i class="bi bi-award"></i>
+        </div>
+        <div>
+          <h3>2x Female Highschool Basketball MVP</h3>
+            <h5 class="text-muted">2016-17', 2017-18'</h5>
+                <p>Awarded as the most valuable player for 2 consecutive years at Jean Vanier Highschool, Milton</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <i class="bi bi-award"></i>
+        </div>
+        <div>
+          <h3>Jean Vanier Junior Female Sportsmanship Award</h3>
+            <h5 class="text-muted">2014-15'</h5>
+                <p>Given to the student that exemplifies what it means to be a dedicated and supportive teammate - Jean Vanier, Milton</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <i class="bi bi-award"></i>
+        </div>
+        <div>
+          <h2>Jean Vanier Pat Daly Award</h2>
+            <h5 class="text-muted">2017-18'</h5>  
+                <p>Awarded to the student that exemplifies what it means to be a student-athlete by achieving in academics and sports </p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <i class="bi bi-award"></i>
+        </div>
+        <div>
+          <h2>OCAA All-Rookie East Team</h2>
+            <h5 class="text-muted">2018-19'</h5>
+                <p>1 of the 5 rookie players selected in the OCAA East Divsion as the top rookie performers in that year</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <i class="bi bi-award"></i>
+        </div>
+        <div>
+          <h2>UofT Tri-Campus Champion</h2>
+            <h5 class="text-muted">2022</h5>
+                <p>Champion amongst all UofT campuses in women's basketball of that year. UTM went 5-0 this season and took home the trophy on home court </p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <i class="bi bi-award"></i>
+        </div>
+        <div>
+          <h2>Finals Tri-Campus MVP</h2>
+            <h5 class="text-muted">2022</h5>
+                <p>Awarded as the most valuable player on the UTM Champion Tri-Campus Team </p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <i class="bi bi-award"></i>
+        </div>
+        <div>
+          <h2>UTM Fair Play Award</h2>
+            <h5 class="text-muted">2022</h5>
+                <p>Recognized as a student that demonstrated superior leadership skills on and off the playing surface through the involvement in and positive impact withtin the UTM Athletic Department</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+
+    <!-- Footer -->
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <p class="col-md-4 mb-0 text-muted">© 2022 Jan Viado, CCT360</p>
+      
+          <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+            <img src="media/Images/IMG_1524.PNG" style="height: 50px" alt="Signature of Jan Viado">
+          </a>
+      
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item">
+                <i class="bi bi-facebook text-muted nav-link px-2"></i>
+            </li>
+            <li class="nav-item">
+                <i class="bi bi-instagram text-muted nav-link px-2"></i>
+            </li>
+            <li class="nav-item">
+                <i class="bi bi-twitter text-muted nav-link px-2"></i>
+            </li>
+            <li class="nav-item">
+                <i class="bi bi-whatsapp text-muted nav-link px-2"></i>
+            </li>
+          </ul>
+        </footer>
+      </div>
+
+
+
+     <!-- Bootstrap Javascript Bundle -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+     
+
+    </body>
+</html>

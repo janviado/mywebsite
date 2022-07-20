@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>Bball Chronicles of Jan Viado</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+
+    <!-- Custom Styles and Overrides -->
+    <link href="css/style.css" rel="stylesheet">
+
+   <!-- Icons -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+
+    <!-- Favicon - See also: https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#adding_custom_icons_to_your_site -->
+    <!-- reference for the favicon icon: https://freeicons.io/hobbies-and-free-time-2/basketball-sport-ball-icon-132901 -->
+    <link rel="shortcut icon" href="media/Images/free_icon_1.svg" type="image/x-icon">
+  </head>
+
+  <body>
+    <!-- Boostrap Nav Bar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+        <div class="container">
+          <a id="wordmark" class="navbar-brand" href="index.html">
+             <!-- reference for the favicon icon: https://freeicons.io/hobbies-and-free-time-2/basketball-sport-ball-icon-132901 -->
+           <img src="media/Images/free_icon_1.svg" alt="White basketball icon" width="25" height="25" class="d-inline-block align-text-top">
+            Basketball Chronicles of J.V
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="about.html" id="navbarDropdownMenuLinkAbout" role="button" aria-expanded="false">
+                  About
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="media.html" id="navbarDropdownMenuLinkMedia" role="button" aria-expanded="false">
+                  Media
+                </a>
+              </li>
+              <!-- Dropdown More Section -->
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLinkMore" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  More
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdownMenuLinkMore">
+                  <li><a class="dropdown-item active" aria-current="page" href="form.html">Contact</a></li>
+                  <li><a class="dropdown-item" href="process.html">Process</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+<!-- Contact Me Content -->
+  <div style="background: url(media/Images/DSC04830.JPEG) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 450px; background-position: 50% 40%; background-blend-mode: soft-light;" class="p-5 mb-4 bg-dark text-light">
+    <div class="container py-5">
+      <div class ="row">
+        <div class="col-12 col-md-9 col-lg-10">
+          <h1 class="display-1">Contact</h1>
+          <p class="col-md-8 fs-4">Jan Viado</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <section class="container">
+  <ul class="nav nav-tabs" id="myTab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="true">Contact</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="credits-tab" data-bs-toggle="tab" data-bs-target="#credits-tab-pane" type="button" role="tab" aria-controls="credits-tab-pane" aria-selected="false">References</button>
+    </li>
+  </ul>
+  <div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active bg-white p-5 mb-5" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+
+        <!-- Contact Form goes here -->
+        <div>
+            <h3>Contact Me</h3>
+        </div>
+
+        <hr> 
+
+        <form class="needs-validation" novalidate>
+            <div class="row mb-3">
+              <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+              <div class="col-sm-10">
+                <input required type="email" class="form-control" id="inputEmail3">
+                <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                    Please enter a valid email address.
+                  </div>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label for="contactMessage" class="col-sm-2 col-form-label">Message</label>
+              <div class="col-sm-10">
+                <textarea required class="form-control" placeholder="Leave a comment here" id="contactMessage" style="height: 100px">
+                </textarea>
+                <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                    Please provide a message.
+                  </div>
+              </div>
+            </div>
+           <!--Subscribe-->
+            <div class="row mb-3">
+              <div class="col-sm-10 offset-sm-2">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck1">
+                  <label class="form-check-label" for="gridCheck1">
+                    Subscribe for Updates
+                  </label>
+                </div>
+              </div>
+            </div>
+            <!--Send Message Button-->
+                <button type="submit" class="btn btn-secondary align-right">Send Message</button>
+        </form>
+
+
+        <!-- Social Media -->
+        <div class="mt-5">
+            <h3>Follow me on Social Media</h3>
+        </div>
+
+        <hr> 
+
+        <div> 
+            <ul class="nav col-lg">
+                <li class="nav-item">
+                    <i class="bi bi-facebook text-dark nav-link mx-2- px-5 fs-2"></i>
+                    <p class="text-center">@Janella Viado</p>
+                </li>
+                <li class="nav-item">
+                    <i class="bi bi-instagram text-dark nav-link mx-2 px-5 fs-2"></i>
+                    <p class="text-center">@jmbv_6</p>
+                </li>
+                <li class="nav-item">
+                    <i class="bi bi-twitter text-dark nav-link mx-2 px-5 fs-2"></i>
+                    <p class="text-center">@jmbv_6</p>
+                </li>
+                <li class="nav-item">
+                    <i class="bi bi-whatsapp text-dark nav-link mx-2 px-5 fs-2"></i>
+                    <p class="text-center">@Jan.Viado</p>
+                </li>
+              </ul>
+        </div>
+        
+    </div>
+    <div class="tab-pane fade" id="credits-tab-pane" role="tabpanel" aria-labelledby="credits-tab" tabindex="0">
+        
+    <!-- References go here. -->
+        <div class="p-5 bg-white mb-5">
+            <h2>References</h2>
+            <hr>
+            <ul class="list-group">
+                <a href="https://getbootstrap.com/" class="list-group-item">Get Bootstrap - Framework </a>
+                <a href="https://www.facebook.com/nsrjpg" class="list-group-item">Naveen Ramkhelawan - Photos </a>
+                <a href="https://www.instagram.com/3rdeyekav/" class="list-group-item">@3rdeyekav - Photos </a>
+                <a href="https://www.facebook.com/UTMAthletics/photos" class="list-group-item">UTM Athletics - Photos</a>
+                <a href="https://www.ocaa.com/landing/index" class="list-group-item">Sheridan vs. UTM - OCAA Video</a>
+                <a href="https://xd.adobe.com/ideas/principles/web-design/best-modern-fonts-for-websites/" class="list-group-item">The 7 Best Modern Fonts for Websites by Justin Morales</a>
+            </ul>
+        
+        </div>
+
+    </div>
+  </div>
+</section>
+
+
+<script> 
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(() => {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  const forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.from(forms).forEach(form => {
+    form.addEventListener('submit', event => {
+      if (!form.checkValidity()) {
+        event.preventDefault()
+        event.stopPropagation()
+      }
+
+      form.classList.add('was-validated')
+    }, false)
+  })
+})()
+</script>
+
+
+
+
+
+
+
+
+
+    <!-- Footer -->
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <p class="col-md-4 mb-0 text-muted">© 2022 Jan Viado, CCT360</p>
+      
+          <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+            <img src="media/Images/IMG_1524.PNG" style="height: 50px" alt="Siganture of Jan Viado">
+          </a>
+      
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item">
+                <i class="bi bi-facebook text-muted nav-link px-2"></i>
+            </li>
+            <li class="nav-item">
+                <i class="bi bi-instagram text-muted nav-link px-2"></i>
+            </li>
+            <li class="nav-item">
+                <i class="bi bi-twitter text-muted nav-link px-2"></i>
+            </li>
+            <li class="nav-item">
+                <i class="bi bi-whatsapp text-muted nav-link px-2"></i>
+            </li>
+          </ul>
+        </footer>
+      </div>
+
+
+
+     <!-- Bootstrap Javascript Bundle -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+     
+
+    </body>
+</html>
